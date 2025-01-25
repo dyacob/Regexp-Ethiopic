@@ -8,3 +8,4 @@ coverage to all of Ethiopic introduced in the Unicode standard since 2003.
 See the provided [manual](https://htmlpreview.github.io/?https://github.com/dyacob/Regexp-Ethiopic/blob/main/doc/index.html) for 
 a review of the regex approach and explanation of usage.
 
+The Regexp::Ethiopic package has a CPAN home [here.](https://metacpan.org/dist/Regexp-Ethiopic)
