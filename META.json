@@ -1,0 +1,55 @@
+{
+   "abstract" : "Regular Expressions Support for Ethiopic Script and the Languages that use it.",
+   "author" : [
+      "Daniel Yacob <dyacob@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 7.62, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "perl"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "Regexp-Ethiopic",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Regexp::Ethiopic" : {
+         "file" : "lib/Regexp/Ethiopic.pm",
+         "version" : "0.19"
+      },
+      "Regexp::Ethiopic::Amharic" : {
+         "file" : "lib/Regexp/Ethiopic/Amharic.pm",
+         "version" : "0.19"
+      },
+      "Regexp::Ethiopic::Geez" : {
+         "file" : "lib/Regexp/Ethiopic/Geez.pm",
+         "version" : "0.19"
+      },
+      "Regexp::Ethiopic::Tigrigna" : {
+         "file" : "lib/Regexp/Ethiopic/Tigrigna.pm",
+         "version" : "0.19"
+      }
+   },
+   "release_status" : "stable",
+   "version" : "0.19",
+   "x_serialization_backend" : "JSON::PP version 4.06"
+}

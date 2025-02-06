@@ -1,4 +1,5 @@
 Changes
+LICENSE
 MANIFEST
 Makefile.PL
 README
@@ -13,3 +14,4 @@ lib/Regexp/Ethiopic/Geez.pm
 lib/Regexp/Ethiopic/Tigrigna.pm
 t/01re.t
 META.yml                                 Module meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)

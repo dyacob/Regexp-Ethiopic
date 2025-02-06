@@ -1,10 +1,37 @@
-# http://module-build.sourceforge.net/META-spec.html
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         Regexp-Ethiopic
-version:      0.16.1
-version_from: lib/Regexp/Ethiopic.pm
-installdirs:  site
+---
+abstract: 'Regular Expressions Support for Ethiopic Script and the Languages that use it.'
+author:
+  - 'Daniel Yacob <dyacob@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 7.62, CPAN::Meta::Converter version 2.150010'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Regexp-Ethiopic
+no_index:
+  directory:
+    - t
+    - inc
+proivdes:
+  Regexp::Ethiopic:
+    file: lib/Regexp/Ethiopic.pm
+    version: '0.19'
+  Regexp::Ethiopic::Amharic:
+    file: lib/Regexp/Ethiopic/Amharic.pm
+    version: '0.19'
+  Regexp::Ethiopic::Geez:
+    file: lib/Regexp/Ethiopic/Geez.pm
+    version: '0.19'
+  Regexp::Ethiopic::Tigrigna:
+    file: lib/Regexp/Ethiopic/Tigrigna.pm
+    version: '0.19'
 requires:
-
-distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.17
+  Carp: '0'
+  perl: '5.008001'
+version: '0.19'
+x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
